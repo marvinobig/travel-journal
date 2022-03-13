@@ -2,9 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  --navbar-color: #ff0000;
-  --text-color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  --navbar-color: #F55A5A;
+  --text-color: #2B283A;
   --border-color: #0000004f;
+  --link-color: #F55A5A;
 }
 
 #nav-bar {
@@ -23,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -41,19 +44,32 @@ img {
   border-radius: 0.6rem;
 }
 
+.position {
+  color: var(--navbar-color);
+}
+
 .location-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 20px;
   max-width: 600px;
+  padding-block: 10px;
 }
 
 .maps {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.country {
+  text-transform: uppercase;
+}
+
+.map-link {
+  color: var(--link-color);
 }
 
 .description {
@@ -66,5 +82,9 @@ img {
     min-width: 200px;
     max-width: 300px;
 
+  }
+
+  .map-link {
+    font-size: 0.9rem;
   }
 }
