@@ -18,7 +18,7 @@ const TRAVEL_DATA = [
 
   {
     id: 2,
-    Country: "Germany",
+    country: "Germany",
     map: "https://goo.gl/maps/6TYPyrg6yZSGyfbr6",
     location: "Berlin",
     date: "20th December, 2021",
@@ -33,7 +33,7 @@ const TRAVEL_DATA = [
 
   {
     id: 3,
-    Country: "United Kingdom",
+    country: "United Kingdom",
     map: "https://goo.gl/maps/VQNzknhcu8c22YtW7",
     location: "Liverpool",
     date: "4th June, 2021",
@@ -44,7 +44,7 @@ const TRAVEL_DATA = [
 
   {
     id: 4,
-    Country: "United Kingdom",
+    country: "United Kingdom",
     map: "https://goo.gl/maps/T9BW8zLZU3Pm8mWE8",
     location: "London",
     date: "20th July, 2020",
